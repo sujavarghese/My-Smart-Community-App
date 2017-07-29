@@ -20,7 +20,7 @@ Route::get('/unknown', function () {
     return view('errors/404');
 });
 
-Route::get('/boundaries/boundary_loader', 'BoundariesController@index');
+Route::get('/ideas', 'IdeasController@index');
 
 Route::get('/boundaries/view_boundaries', 'BoundariesController@store');
 
