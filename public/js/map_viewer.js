@@ -231,4 +231,5 @@ $(document).ready(function () {
         $('#boundaryType').val($.getUrlVar('boundaryType'));
         getBoundaryCodes(setBoundaryCode);
     }
+    
 });

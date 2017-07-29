@@ -30,20 +30,20 @@
     <![endif]-->
     <!-- jQuery 2.1.3 -->
     <script src="{{ asset ("/bower_components/admin-lte/plugins/jQuery/jQuery-2.2.3.min.js") }}"></script>
+    <script src="{{ asset ("/bower_components/admin-lte/plugins/chartjs/Chart.js") }}"></script>
 </head>
-<body class="skin-blue">
+<body class="skin-blue layout-top-nav">
 <div class="wrapper">
 
     <!-- Header -->
     @include('_header')
-
-    <!-- Sidebar -->
-    @include('_sidebar')
-
+    
+    <!--Slider -->
+    @include('_slider')
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
-        <!-- Content Header (Page header) -->
-        @yield('content')
+    <!-- Content Header (Page header) -->
+    @yield('content')
     </div><!-- /.content-wrapper -->
 
     <!-- Footer -->
@@ -68,7 +68,10 @@
 <script>
     $(function () {
         $("#view_boundary_data_table").DataTable();
+        
+
     });
 </script>
+<script src="{{ asset ("/js/government_bridge.js") }}" type="text/javascript"></script>
 </body>
 </html>
