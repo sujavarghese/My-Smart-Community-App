@@ -8,65 +8,48 @@
 <div id="navbar" class="collapse navbar-collapse">
 
 </div>
-
+<div style="background-image: url('/images/Shoal-Bay-Resort-Banners2-28.jpg'); background-size: 1366px 100%;">
 <section class="content-header">
-    <h1>
-        {{ $page_title or 'Map Viewer'}}
-    </h1>
+    <div class="container">
+        <h1>
+            Explore
+            <small>Wyndham</small>
+        </h1>
+    </div>
     <!-- You can dynamically generate breadcrumbs here -->
 </section>
-
-<section class="content">
-    <div class="container width100">
-        <div id="map" class="map">
-        <div class="row select-boundary-wrapper floating-dropdown">
-            <form action="" id="exportBoundary">
-                <label class="col-sm-3 align-label">Select Boundary:</label>
-                <div class="col-sm-3">
-                    <select class="form-control" id="boundaryType" name="boundaryType" required>
-                        <option value="" selected="selected">Boundary Type</option>
-                        <option value="FSA">FSA</option>
-                        <option value="SAM">SAM</option>
-                        <option value="ADA">ADA</option>
-                        <option value="TLS_INT">TLS_INT</option>
-                    </select>
-                    <div class="boundary-loading-wrapper">
-                        <i class="fa fa-refresh fa-spin boundary-loading display-none"></i>
-                    </div>
-                </div>
-
-                <div class="col-sm-3">
-                    <select class="form-control" id="boundaryCode" name="boundaryCode" required disabled="disabled">
-                        <option value="">Boundary Code</option>
-                    </select>
-                    {{--TODO extract boundary name from database --}}
-
-                </div>
-                <div class="col-sm-1">
-                    <a id="submit" class="btn btn-primary ">Export</a>
-                </div>
+<section class="content-header">
+    <div class="container">
+        <div class="btn-group">
+            <button type="button" class="btn btn-warning btn-flat">Landmarks</button>
+            <button type="button" class="btn btn-warning btn-flat dropdown-toggle" data-toggle="dropdown">
+                <span class="caret"></span>
+                <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li data-layer='tourism'><a href="#" >Tourist Attractions</a></li>
+                <li data-layer='libraries'><a href="#">Libraries</a></li>
+                <li data-layer='kindergartens'><a href="#">Kindergartens</a></li>
+                <li data-layer='communitycentres'><a href="#">Communitycentres</a></li>
+                <li data-layer='maternalchild'><a href="#">Maternal & Child Health</a></li>
+                <li data-layer='sportsfields'><a href="#">Sportsfields</a></li>
+                <li data-layer='buildings_and_amenity'><a href="#">Buildings & Amenity</a></li>
+                <li data-layer='emergency_markers'><a href="#">Emergency_Markers</a></li>
+                <li data-layer='public_transport'><a href="#">Public Transport</a></li>
+            </ul>
         </div>
-        </div>
-        <div class="row goemetry-type-selection display-none">
-            <label class="col-sm-3 align-label">Draw Boundary:</label>
-            <div class="col-sm-3">
-                <select class="form-control" id="geometryType">
-                    <option value="" selected="selected">Select Geometry type</option>
-                    <option value="Point">Point</option>
-                    <option value="LineString">LineString</option>
-                    <option value="Polygon">Polygon</option>
-                    <option value="Circle">Circle</option>
-                    <option value="None">None</option>
-                </select>
-            </div>
-            <div class="col-sm-3">
-                <button class="btn btn-primary ">Export</button>
-            </div>
-            </form>
-        </div>
-
+        <!-- You can dynamically generate breadcrumbs here -->
     </div>
 </section>
+    <br>
+    <br>
+</div>
+
+
+<div id="map" class="map">
+</div>
+
+
 <link rel="stylesheet" href="https://openlayers.org/en/v4.1.1/css/ol.css" type="text/css">
 <!-- The line below is only needed for old environments like Internet Explorer and Android 4.x -->
 <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>

@@ -6,21 +6,21 @@
     </ol>
     <div class="carousel-inner">
         <div class="item active">
-            <img src="{{ asset("/images/community1.jpg")}}" alt="Welcome to Wyndham Community">
+            <img src="{{ asset("/images/main_banner.jpg")}}" alt="Welcome to Wyndham Community">
 
             <div class="carousel-caption">
                 
             </div>
         </div>
         <div class="item">
-            <img src="http://placehold.it/900x500/3c8dbc/ffffff&amp;text=I+Love+Bootstrap" alt="Second slide">
+            <img src="{{ asset("/images/banner2.jpg")}}">
 
             <div class="carousel-caption">
                 
             </div>
         </div>
         <div class="item">
-            <img src="http://placehold.it/900x500/f39c12/ffffff&amp;text=I+Love+Bootstrap" alt="Third slide">
+            <img src="{{ asset("/images/banner3.jpg")}}">
 
             <div class="carousel-caption">
                 

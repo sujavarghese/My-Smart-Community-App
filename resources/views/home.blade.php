@@ -58,7 +58,7 @@
                         <div class="info-box">
                             <span class="info-box-icon bg-yellow"><i class="ion ion-ios-people-outline"></i></span>
                             <div class="info-box-content">
-                                <span class="info-box-text">Users</span>
+                                <span class="info-box-text">Volunteers</span>
                                 <span class="info-box-number">
                                     999
 
@@ -97,6 +97,34 @@
                                             </tr>
                                         </thead>
                                         <tbody>
+                                            <tr role="row" class="even">
+                                                <td class="">ABC</td>
+                                                <td class="">Awesome Idea</td>
+                                                <td class="">Inftasructure</td>
+                                                <td><span class="pull-right badge bg-blue">31</span>
+                                                </td>
+                                            </tr>
+                                            <tr role="row" class="even">
+                                                <td class="">ABC</td>
+                                                <td class="">Awesome Idea</td>
+                                                <td class="">Inftasructure</td>
+                                                <td><span class="pull-right badge bg-blue">31</span>
+                                                </td>
+                                            </tr>
+                                            <tr role="row" class="even">
+                                                <td class="">ABC</td>
+                                                <td class="">Awesome Idea</td>
+                                                <td class="">Inftasructure</td>
+                                                <td><span class="pull-right badge bg-blue">31</span>
+                                                </td>
+                                            </tr>
+                                            <tr role="row" class="even">
+                                                <td class="">ABC</td>
+                                                <td class="">Awesome Idea</td>
+                                                <td class="">Inftasructure</td>
+                                                <td><span class="pull-right badge bg-blue">31</span>
+                                                </td>
+                                            </tr>
                                             <tr role="row" class="even">
                                                 <td class="">ABC</td>
                                                 <td class="">Awesome Idea</td>
@@ -214,7 +242,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="box box-danger">
+                        <div class="box box-default">
                             <div class="box-header with-border">
                                 <h3 class="box-title">Government Bridge</h3>
 
@@ -224,10 +252,42 @@
                                     <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
                                 </div>
                             </div>
+                            <!-- /.box-header -->
                             <div class="box-body">
-                                <canvas id="pieChart" style="height: 265px; width: 530px;" width="530" height="265"></canvas>
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <div class="chart-responsive">
+                                            <canvas id="pieChart" height="155" width="205" style="width: 205px; height: 155px;"></canvas>
+                                        </div>
+                                        <!-- ./chart-responsive -->
+                                    </div>
+                                    <!-- /.col -->
+                                    <div class="col-md-4">
+                                        <ul class="chart-legend clearfix">
+                                            <li><i class="fa fa-circle-o text-red"></i> Chrome</li>
+                                            <li><i class="fa fa-circle-o text-green"></i> IE</li>
+                                            <li><i class="fa fa-circle-o text-yellow"></i> FireFox</li>
+                                            <li><i class="fa fa-circle-o text-aqua"></i> Safari</li>
+                                            <li><i class="fa fa-circle-o text-light-blue"></i> Opera</li>
+                                            <li><i class="fa fa-circle-o text-gray"></i> Navigator</li>
+                                        </ul>
+                                    </div>
+                                    <!-- /.col -->
+                                </div>
+                                <!-- /.row -->
                             </div>
                             <!-- /.box-body -->
+                            <div class="box-footer no-padding">
+                                <ul class="nav nav-pills nav-stacked">
+                                    <li><a href="#">United States of America
+                                            <span class="pull-right text-red"><i class="fa fa-angle-down"></i> 12%</span></a></li>
+                                    <li><a href="#">India <span class="pull-right text-green"><i class="fa fa-angle-up"></i> 4%</span></a>
+                                    </li>
+                                    <li><a href="#">China
+                                            <span class="pull-right text-yellow"><i class="fa fa-angle-left"></i> 0%</span></a></li>
+                                </ul>
+                            </div>
+                            <!-- /.footer -->
                         </div>
                     </div>
                 </div>

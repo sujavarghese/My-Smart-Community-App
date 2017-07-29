@@ -1,4 +1,4 @@
-var pieChartCanvas = $('#pieChart').get(0).getContext('2d')
+var pieChartCanvas = $('#pieChart').get(0).getContext('2d');
 var pieChart = new Chart(pieChartCanvas)
 var PieData = [
     {
