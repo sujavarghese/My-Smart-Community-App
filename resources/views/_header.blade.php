@@ -1,6 +1,6 @@
 <!-- Main Header -->
 <header class="main-header">
-    <a href="{{route('home')}}" class="logo"><b>{{ config('app.name', 'Boundary Exchange') }}</b></a>
+    <a href="{{route('home')}}" class="logo"><b>{{ config('app.name', 'My Smart Community') }}</b></a>
     <!-- Header Navbar -->
     <nav class="navbar navbar-static-top" role="navigation">
 

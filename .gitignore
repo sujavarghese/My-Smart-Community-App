@@ -9,3 +9,5 @@ Homestead.yaml
 .env.example
 /storage/logs/*.log
 .env
+/nbproject/private/
+nbproject/*

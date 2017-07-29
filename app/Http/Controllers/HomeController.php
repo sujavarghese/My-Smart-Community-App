@@ -87,13 +87,7 @@ class HomeController extends Controller
             }
         }
         return array(
-            'total_count' => $total_count,
-            'valid_upload_count' => $valid_upload_count,
-            'valid_upload_percentage' => $valid_upload_count * 100 / $total_count,
-            'valid_validate_count' => $valid_validate_count,
-            'valid_validate_percentage' => $valid_validate_count * 100 / $total_count,
-            'valid_load_count' => $valid_load_count,
-            'valid_load_percentage' => $valid_load_count * 100 / $total_count
+            'total_count' => 100,
         );
     }
     /**

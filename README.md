@@ -1,9 +1,9 @@
 
 
-## Network Boundary Design Exchange
+## My Smart Community
 
 
-This is an application for Network Boundary Exchange built on Laravel PHP, MySQL and Bootstrap. 
+This is an application for My Smart Community App built on Laravel PHP, MySQL and Bootstrap. 
 
 
 ## Release 0.0
