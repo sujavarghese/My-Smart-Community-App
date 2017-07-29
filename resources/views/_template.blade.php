@@ -37,9 +37,6 @@
 
     <!-- Header -->
     @include('_header')
-    
-    <!--Slider -->
-    @include('_slider')
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
     <!-- Content Header (Page header) -->

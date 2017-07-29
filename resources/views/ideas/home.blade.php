@@ -10,10 +10,12 @@
 </div>
 
 <section class="content-header">
+    <div class="container">
     <h1>
         {{ $page_title or 'Ideas Platform'}}
         <small>{{ $page_description or 'Share your ideas' }}</small>
     </h1>
+    </div>
     <!-- You can dynamically generate breadcrumbs here -->
 </section>
 <section class="content">

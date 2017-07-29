@@ -1,7 +1,8 @@
 @extends('_template')
 
 @section('content')
-
+<!--Slider -->
+@include('_slider')
 
 <section class="content-header">
     <form action="/ideas" method="get" class="sidebar-form" style="border: 1px solid #dddddd;">
@@ -9,7 +10,6 @@
             <input type="text" name="title" class="form-control" placeholder="Ideas?" style="background-color: #ffffff;">
         </div>
     </form>
-    <!-- You can dynamically generate breadcrumbs here -->
 </section>
 
 <section class="content">
