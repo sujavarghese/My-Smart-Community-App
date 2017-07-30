@@ -1,7 +1,10 @@
 var image = new ol.style.Circle({
-    radius: 5,
-    fill: null,
-    stroke: new ol.style.Stroke({color: 'red', width: 1})
+    radius: 7,
+    fill: new ol.style.Fill({
+                        color: 'green',
+                        opacity: 0.8
+                    }),
+    stroke: new ol.style.Stroke({color: 'white', width: 2})
 });
 
 var styles = {
@@ -233,14 +236,16 @@ var map = new ol.Map({
     }),
     view: new ol.View({
         center: ol.proj.transform([144.670241, -37.897925], 'EPSG:4326', 'EPSG:3857'),
-        zoom: 7
+        zoom: 12
     })
 
 
 });
-layerName = ''
-$(".dropdown-menu li").on("click", function () {
-    map.removeLayer(tourism_layer);
+// Default layer
+layerName = communitycentres_layer;
+map.addLayer(communitycentres_layer);
+$(".map-buttons button").on("click", function () {
+    map.removeLayer(layerName);
     var layer = $(this).data('layer');
     if(layer == 'tourism') {
         layerName = tourism_layer;

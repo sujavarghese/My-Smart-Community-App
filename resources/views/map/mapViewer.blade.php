@@ -8,7 +8,7 @@
 <div id="navbar" class="collapse navbar-collapse">
 
 </div>
-<div style="background-image: url('/images/Shoal-Bay-Resort-Banners2-28.jpg'); background-size: 1366px 100%;">
+<div style="background-image: url('/images/Shoal-Bay-Resort-Banners2-28.jpg'); background-size: cover;background-repeat: no-repeat;background-position: center center;">
 <section class="content-header">
     <div class="container">
         <h1>
@@ -19,25 +19,16 @@
     <!-- You can dynamically generate breadcrumbs here -->
 </section>
 <section class="content-header">
-    <div class="container">
-        <div class="btn-group">
-            <button type="button" class="btn btn-warning btn-flat">Landmarks</button>
-            <button type="button" class="btn btn-warning btn-flat dropdown-toggle" data-toggle="dropdown">
-                <span class="caret"></span>
-                <span class="sr-only">Toggle Dropdown</span>
-            </button>
-            <ul class="dropdown-menu" role="menu">
-                <li data-layer='tourism'><a href="#" >Tourist Attractions</a></li>
-                <li data-layer='libraries'><a href="#">Libraries</a></li>
-                <li data-layer='kindergartens'><a href="#">Kindergartens</a></li>
-                <li data-layer='communitycentres'><a href="#">Communitycentres</a></li>
-                <li data-layer='maternalchild'><a href="#">Maternal & Child Health</a></li>
-                <li data-layer='sportsfields'><a href="#">Sportsfields</a></li>
-                <li data-layer='buildings_and_amenity'><a href="#">Buildings & Amenity</a></li>
-                <li data-layer='emergency_markers'><a href="#">Emergency_Markers</a></li>
-                <li data-layer='public_transport'><a href="#">Public Transport</a></li>
-            </ul>
-        </div>
+    <div class="container map-buttons">
+        <button data-layer='tourism' type="button" class="btn btn-primary">Tourist Places</button>
+        <button data-layer='libraries' type="button" class="btn btn-success">Libraries</button>
+        <button data-layer='kindergartens' type="button" class="btn btn-info">Kindergartens</button>
+        <button data-layer='communitycentres' type="button" class="btn btn-danger">Communitycentres</button>
+        <button data-layer='maternalchild' type="button" class="btn btn-warning">Maternal & Child Health</button>
+        <button data-layer='sportsfields' type="button" class="btn bg-maroon">Sportsfields</button>
+        <!--<button data-layer='buildings_and_amenity' type="button" class="btn bg-purple">Buildings & Amenity</button>-->
+        <button data-layer='emergency_markers' type="button" class="btn bg-orange">Emergency Markers</button>
+        <!--<button data-layer='public_transport' type="button" class="btn bg-olive">Public Transport</button>-->
         <!-- You can dynamically generate breadcrumbs here -->
     </div>
 </section>
