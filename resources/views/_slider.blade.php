@@ -2,7 +2,6 @@
     <ol class="carousel-indicators">
         <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
         <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
-        <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
     </ol>
     <div class="carousel-inner">
         <div class="item active">
@@ -14,13 +13,6 @@
         </div>
         <div class="item">
             <img src="{{ asset("/images/banner2.jpg")}}">
-
-            <div class="carousel-caption">
-                
-            </div>
-        </div>
-        <div class="item">
-            <img src="{{ asset("/images/banner3.jpg")}}">
 
             <div class="carousel-caption">
                 

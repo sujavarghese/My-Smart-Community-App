@@ -1,6 +1,6 @@
 <header class="main-header">
     <nav class="navbar navbar-static-top">
-      <div class="container">
+        <div class="container" style="padding: 0;">
         <div class="navbar-header">
             <a href="/" class="navbar-brand" style="padding: 0;margin-right: 10px;"><img src="{{ asset("/images/logo.png")}}" style="width: 122px;" alt="Logo"></a>
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
@@ -29,7 +29,7 @@
             <li><a href="/map">Govt Bridge</a></li>
             <li><a href="/map">Infrastructure</a></li>
             <li><a href="/map">Active Well-being</a></li>
-            <li><a href="/map">Security</a></li>
+            <li><a href="/map">Safety & Security</a></li>
             <li><a href="/map">Sustainablity</a></li>
             <!--<li><a href="/map">Youth Engagements</a></li>-->
           </ul>
