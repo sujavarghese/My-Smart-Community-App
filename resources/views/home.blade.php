@@ -316,4 +316,5 @@
       labels: ['Resolved issues', 'Reported issues']
     });
 </script>
+<script src="{{ asset ("/js/government_bridge.js") }}" type="text/javascript"></script>
 @endsection
