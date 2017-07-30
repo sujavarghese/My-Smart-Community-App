@@ -14,7 +14,7 @@
             <li class=""><a href="/ideas/create">Ideas<span class="sr-only">(current)</span></a></li>
             <li><a href="/volunteering-business-enablers">Volunteer</a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Business Enabler<span class="caret"></span></a>
+              <a href="/volunteering-business-enablers" class="dropdown-toggle" data-toggle="dropdown">Business Enabler<span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="#">Job</a></li>
                 <li><a href="#">Another action</a></li>

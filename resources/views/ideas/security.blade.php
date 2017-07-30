@@ -75,6 +75,9 @@
                                                             placeholder="Tell us more about your idea.."></textarea>
                                               </div>
                                           </div>
+                                          <div class="form-group" style="margin-left: 17%;">
+                                              <button class="btn btn-default">Show in Map</button>
+                                          </div>
                                         </div>
                                         <!-- /.box-body -->
                                         <div class="box-footer">
