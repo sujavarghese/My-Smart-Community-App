@@ -20,120 +20,181 @@
 </section>
 <section class="content">
     <div class="container">
-        <div class="col-md-7">
-                <div class="panel panel-default">
-                    <div class="panel-heading"><h4 class="box-title">Share your ideas with us</h4>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="box">
+                  <div class="box-header">
+                    <h3 class="box-title">All Ideas</h3>
+
+                    <div class="box-tools">
+                      <div class="input-group input-group-sm" style="width: 150px;">
+                        <input type="text" name="table_search" class="form-control pull-right" placeholder="Search">
+
+                        <div class="input-group-btn">
+                          <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                        </div>
+                      </div>
                     </div>
-                    <div class="panel-body">
-                        <div class="box box-info">
-                            <div class="box-header with-border">
-                              <h3 class="box-title">New ideas</h3>
-                            </div>
-                            <!-- /.box-header -->
-                            <!-- form start -->
-                            <form class="form-horizontal">
-                              <div class="box-body">
-                                <div class="form-group">
-                                  <label for="inputIdeaTitle" class="col-sm-2 control-label">Title</label>
-                                  <div class="col-sm-10">
-                                      <input type="text" class="form-control" id="inputIdeaTitle" placeholder="Title" value="">
-                                  </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="inputIdeaDescription" class="col-sm-2 control-label">Description</label>
-                                    <div class="col-sm-10">
-                                        <textarea class="form-control" rows="3" id="inputIdeaDescription"
-                                                  placeholder="Tell us more about your idea.."></textarea>
-                                    </div>
-                                </div>
-                              </div>
-                              <!-- /.box-body -->
-                              <div class="box-footer">
-                                <button type="submit" class="btn btn-default">Cancel</button>
-                                <button type="submit" class="btn btn-info pull-right">Sign in</button>
-                              </div>
-                              <!-- /.box-footer -->
-                            </form>
-                          </div>
-                    </div>
+                  </div>
+                  <!-- /.box-header -->
+                  <div class="box-body table-responsive no-padding">
+                    <table class="table table-hover">
+                      <tbody><tr>
+                        <th class="col-sm-2">Name</th>
+                        <th class="col-sm-2">Idea</th>
+                        <th class="col-sm-2">Category</th>
+                        <th class="col-sm-2">Up Votes</th>
+                        <th class="col-sm-2">Down Votes</th>
+                      </tr>
+                      <tr>
+                        <td class="col-sm-2">John Doe</td>
+                        <td class="col-sm-2">Test Title</td>
+                        <td class="col-sm-2">Test Category</td>
+                        <td class="col-sm-2">
+                            <span class="fa fa-thumbs-up label label-info pull-left">961</span>
+                        </td>
+                        <td class="col-sm-2">
+                            <span class="fa fa-thumbs-down label label-info pull-left">190</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="col-sm-2">John Doe</td>
+                        <td class="col-sm-2">Test Title</td>
+                        <td class="col-sm-2">Test Category</td>
+                        <td class="col-sm-2">
+                            <span class="fa fa-thumbs-up label label-info pull-left">961</span>
+                        </td>
+                        <td class="col-sm-2">
+                            <span class="fa fa-thumbs-down label label-info pull-left">190</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="col-sm-2">John Doe</td>
+                        <td class="col-sm-2">Test Title</td>
+                        <td class="col-sm-2">Test Category</td>
+                        <td class="col-sm-2">
+                            <span class="fa fa-thumbs-up label label-info pull-left">961</span>
+                        </td>
+                        <td class="col-sm-2">
+                            <span class="fa fa-thumbs-down label label-info pull-left">190</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="col-sm-2">John Doe</td>
+                        <td class="col-sm-2">Test Title</td>
+                        <td class="col-sm-2">Test Category</td>
+                        <td class="col-sm-2">
+                            <span class="fa fa-thumbs-up label label-info pull-left">961</span>
+                        </td>
+                        <td class="col-sm-2">
+                            <span class="fa fa-thumbs-down label label-info pull-left">190</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="col-sm-2">John Doe</td>
+                        <td class="col-sm-2">Test Title</td>
+                        <td class="col-sm-2">Test Category</td>
+                        <td class="col-sm-2">
+                            <span class="fa fa-thumbs-up label label-info pull-left">961</span>
+                        </td>
+                        <td class="col-sm-2">
+                            <span class="fa fa-thumbs-down label label-info pull-left">190</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="col-sm-2">John Doe</td>
+                        <td class="col-sm-2">Test Title</td>
+                        <td class="col-sm-2">Test Category</td>
+                        <td class="col-sm-2">
+                            <span class="fa fa-thumbs-up label label-info pull-left">961</span>
+                        </td>
+                        <td class="col-sm-2">
+                            <span class="fa fa-thumbs-down label label-info pull-left">190</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="col-sm-2">John Doe</td>
+                        <td class="col-sm-2">Test Title</td>
+                        <td class="col-sm-2">Test Category</td>
+                        <td class="col-sm-2">
+                            <span class="fa fa-thumbs-up label label-info pull-left">961</span>
+                        </td>
+                        <td class="col-sm-2">
+                            <span class="fa fa-thumbs-down label label-info pull-left">190</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="col-sm-2">John Doe</td>
+                        <td class="col-sm-2">Test Title</td>
+                        <td class="col-sm-2">Test Category</td>
+                        <td class="col-sm-2">
+                            <span class="fa fa-thumbs-up label label-info pull-left">961</span>
+                        </td>
+                        <td class="col-sm-2">
+                            <span class="fa fa-thumbs-down label label-info pull-left">190</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="col-sm-2">John Doe</td>
+                        <td class="col-sm-2">Test Title</td>
+                        <td class="col-sm-2">Test Category</td>
+                        <td class="col-sm-2">
+                            <span class="fa fa-thumbs-up label label-info pull-left">961</span>
+                        </td>
+                        <td class="col-sm-2">
+                            <span class="fa fa-thumbs-down label label-info pull-left">190</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="col-sm-2">John Doe</td>
+                        <td class="col-sm-2">Test Title</td>
+                        <td class="col-sm-2">Test Category</td>
+                        <td class="col-sm-2">
+                            <span class="fa fa-thumbs-up label label-info pull-left">961</span>
+                        </td>
+                        <td class="col-sm-2">
+                            <span class="fa fa-thumbs-down label label-info pull-left">190</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="col-sm-2">John Doe</td>
+                        <td class="col-sm-2">Test Title</td>
+                        <td class="col-sm-2">Test Category</td>
+                        <td class="col-sm-2">
+                            <span class="fa fa-thumbs-up label label-info pull-left">961</span>
+                        </td>
+                        <td class="col-sm-2">
+                            <span class="fa fa-thumbs-down label label-info pull-left">190</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="col-sm-2">John Doe</td>
+                        <td class="col-sm-2">Test Title</td>
+                        <td class="col-sm-2">Test Category</td>
+                        <td class="col-sm-2">
+                            <span class="fa fa-thumbs-up label label-info pull-left">961</span>
+                        </td>
+                        <td class="col-sm-2">
+                            <span class="fa fa-thumbs-down label label-info pull-left">190</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="col-sm-2">John Doe</td>
+                        <td class="col-sm-2">Test Title</td>
+                        <td class="col-sm-2">Test Category</td>
+                        <td class="col-sm-2">
+                            <span class="fa fa-thumbs-up label label-info pull-left">961</span>
+                        </td>
+                        <td class="col-sm-2">
+                            <span class="fa fa-thumbs-down label label-info pull-left">190</span>
+                        </td>
+                      </tr>
+                    </tbody></table>
+                  </div>
+                <!-- /.box-body -->
                 </div>
+                <div class="col-sm-5"><div class="dataTables_info" id="example2_info" role="status" aria-live="polite">Showing 1 to 10 of 57 entries</div></div><div class="col-sm-7"><div class="dataTables_paginate paging_simple_numbers" id="example2_paginate"><ul class="pagination"><li class="paginate_button previous disabled" id="example2_previous"><a href="#" aria-controls="example2" data-dt-idx="0" tabindex="0">Previous</a></li><li class="paginate_button active"><a href="#" aria-controls="example2" data-dt-idx="1" tabindex="0">1</a></li><li class="paginate_button "><a href="#" aria-controls="example2" data-dt-idx="2" tabindex="0">2</a></li><li class="paginate_button "><a href="#" aria-controls="example2" data-dt-idx="3" tabindex="0">3</a></li><li class="paginate_button "><a href="#" aria-controls="example2" data-dt-idx="4" tabindex="0">4</a></li><li class="paginate_button "><a href="#" aria-controls="example2" data-dt-idx="5" tabindex="0">5</a></li><li class="paginate_button "><a href="#" aria-controls="example2" data-dt-idx="6" tabindex="0">6</a></li><li class="paginate_button next" id="example2_next"><a href="#" aria-controls="example2" data-dt-idx="7" tabindex="0">Next</a></li></ul></div></div>
             </div>
-        <div class="col-md-5">
-            <div class="box box-primary">
-                <div class="box-header with-border">
-                  <h3 class="box-title">Top rated ideas</h3>
-                </div>
-                <!-- /.box-header -->
-                <div class="box-body">
-                  <ul class="products-list product-list-in-box">
-                    <li class="item">
-                      <div class="product-img">
-                        <img src="images/user1.jpg" alt="User Image">
-                      </div>
-                      <div class="product-info">
-                        <a href="javascript:void(0)" class="product-title">Samsung TV
-                          <span class="fa fa-thumbs-up label label-info pull-right">961</span>
-                          <span class="fa fa-thumbs-down label label-info pull-right">190</span>
-                        </a>
-                        <span class="product-description">
-                              Samsung 32" 1080p 60Hz LED Smart HDTV.
-                            </span>
-                      </div>
-                    </li>
-                    <!-- /.item -->
-                    <li class="item">
-                      <div class="product-img">
-                        <img src="images/user2.jpg" alt="User Image">
-                      </div>
-                      <div class="product-info">
-                        <a href="javascript:void(0)" class="product-title">Bicycle
-                          <span class="fa fa-thumbs-up label label-info pull-right">754</span>
-                          <span class="fa fa-thumbs-down label label-info pull-right">70</span>
-                        </a>
-                        <span class="product-description">
-                              26" Mongoose Dolomite Men's 7-speed, Navy Blue.
-                            </span>
-                      </div>
-                    </li>
-                    <!-- /.item -->
-                    <li class="item">
-                      <div class="product-img">
-                        <img src="images/user3.jpg" alt="User Image">
-                      </div>
-                      <div class="product-info">
-                        <a href="javascript:void(0)" class="product-title">Xbox One 
-                            <span class="fa fa-thumbs-up label label-info pull-right">359</span>
-                            <span class="fa fa-thumbs-down label label-info pull-right">116</span>
-                        </a>
-                        <span class="product-description">
-                              Xbox One Console Bundle with Halo Master Chief Collection.
-                            </span>
-                      </div>
-                    </li>
-                    <!-- /.item -->
-                    <li class="item">
-                      <div class="product-img">
-                        <img src="images/user4.jpg" alt="User Image">
-                      </div>
-                      <div class="product-info">
-                        <a href="javascript:void(0)" class="product-title">PlayStation 4
-                          <span class="fa fa-thumbs-up label label-info pull-right">320</span>
-                          <span class="fa fa-thumbs-down label label-info pull-right">17</span>
-                        </a>
-                        <span class="product-description">
-                              PlayStation 4 500GB Console (PS4)
-                            </span>
-                      </div>
-                    </li>
-                    <!-- /.item -->
-                  </ul>
-                </div>
-            <!-- /.box-body -->
-            <div class="box-footer text-center">
-              <a href="javascript:void(0)" class="uppercase">View All Ideas</a>
-            </div>
-            <!-- /.box-footer -->
-          </div>
         </div>
     </div>
 </section>

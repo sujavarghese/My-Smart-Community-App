@@ -20,7 +20,11 @@ Route::get('/unknown', function () {
     return view('errors/404');
 });
 
+Route::get('/ideas/create', 'IdeasController@create');
+
 Route::get('/ideas', 'IdeasController@index');
+
+Route::get('/volunteering-business-enablers', 'IdeasController@volunteering_business_enablers');
 
 Route::get('/boundaries/view_boundaries', 'BoundariesController@store');
 

@@ -5,9 +5,9 @@
 @include('_slider')
 
 <section class="content-header">
-    <form action="/ideas" method="get" class="sidebar-form" style="border: 1px solid #dddddd;">
+    <form action="/ideas/create" method="get" class="sidebar-form" style="border: 1px solid #dddddd;">
         <div class="input-group" style="display:block;">
-            <input type="text" name="title" class="form-control" placeholder="Ideas?" style="background-color: #ffffff;">
+            <input type="text" name="title" class="form-control" placeholder="Got new ideas?" style="background-color: #ffffff;">
         </div>
     </form>
 </section>
@@ -234,7 +234,7 @@
                             </div>
                             <!-- /.box-body -->
                             <div class="box-footer text-center">
-                                <a href="javascript:void(0)" class="uppercase">View All Users</a>
+                                <a href="/volunteering-business-enablers" class="uppercase">View All Users</a>
                             </div>
                             <!-- /.box-footer -->
                         </div>
@@ -264,12 +264,11 @@
                                     <!-- /.col -->
                                     <div class="col-md-4">
                                         <ul class="chart-legend clearfix">
-                                            <li><i class="fa fa-circle-o text-red"></i> Chrome</li>
-                                            <li><i class="fa fa-circle-o text-green"></i> IE</li>
-                                            <li><i class="fa fa-circle-o text-yellow"></i> FireFox</li>
-                                            <li><i class="fa fa-circle-o text-aqua"></i> Safari</li>
-                                            <li><i class="fa fa-circle-o text-light-blue"></i> Opera</li>
-                                            <li><i class="fa fa-circle-o text-gray"></i> Navigator</li>
+                                            <li><i class="fa fa-circle-o text-red"> Voted</i></li>
+                                            <li><i class="fa fa-circle-o text-blue"> Under Analysis</i></li>
+                                            <li><i class="fa fa-circle-o text-green"></i> Funded</li>
+                                            <li><i class="fa fa-circle-o text-yellow"></i> Projects in progress</li>
+                                            <li><i class="fa fa-circle-o text-grey"></i> Delivered</li>
                                         </ul>
                                     </div>
                                     <!-- /.col -->
@@ -277,16 +276,6 @@
                                 <!-- /.row -->
                             </div>
                             <!-- /.box-body -->
-                            <div class="box-footer no-padding">
-                                <ul class="nav nav-pills nav-stacked">
-                                    <li><a href="#">United States of America
-                                            <span class="pull-right text-red"><i class="fa fa-angle-down"></i> 12%</span></a></li>
-                                    <li><a href="#">India <span class="pull-right text-green"><i class="fa fa-angle-up"></i> 4%</span></a>
-                                    </li>
-                                    <li><a href="#">China
-                                            <span class="pull-right text-yellow"><i class="fa fa-angle-left"></i> 0%</span></a></li>
-                                </ul>
-                            </div>
                             <!-- /.footer -->
                         </div>
                     </div>

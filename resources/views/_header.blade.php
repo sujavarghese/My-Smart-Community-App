@@ -11,8 +11,8 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Ideas<span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Volunteer</a></li>
+            <li class="active"><a href="/ideas/create">Ideas<span class="sr-only">(current)</span></a></li>
+            <li><a href="/volunteering-business-enablers">Volunteer</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Bussiness Enabler<span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
@@ -26,6 +26,12 @@
               </ul>
             </li>
             <li><a href="/map">Explore</a></li>
+            <li><a href="/map">Govt Bridge</a></li>
+            <li><a href="/map">Infrastructure</a></li>
+            <li><a href="/map">Active Well-being</a></li>
+            <li><a href="/map">Security</a></li>
+            <li><a href="/map">Sustainablity</a></li>
+            <!--<li><a href="/map">Youth Engagements</a></li>-->
           </ul>
         </div>
         <!-- /.navbar-collapse -->
