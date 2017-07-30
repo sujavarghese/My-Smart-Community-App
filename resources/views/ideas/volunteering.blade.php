@@ -101,7 +101,7 @@
                   <ul class="products-list product-list-in-box">
                     <li class="item">
                       <div class="product-img">
-                        <img src="{{ asset("/images/user1.jpg")}}" alt="User Image">
+                        <img src="{{ asset("/images/user4.jpg")}}" alt="User Image">
                       </div>
                       <div class="product-info">
                         <a href="javascript:void(0)" class="product-title">Samsung TV
@@ -112,11 +112,18 @@
                               Samsung 32" 1080p 60Hz LED Smart HDTV.
                             </span>
                       </div>
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-facebook-vertical" style="width: 22px;"><i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-google-vertical" style="width: 22px;"><i class="fa fa-google-plus"></i></a>
+                        <a class="btn btn-social-icon btn-instagram-vertical" style="width: 22px;"><i class="fa fa-instagram"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin-vertical" style="width: 22px;"><i class="fa fa-linkedin"></i></a>
+                        <a class="btn btn-social-icon btn-twitter-vertical" style="width: 22px;"><i class="fa fa-twitter"></i></a>
+                    </div>
                     </li>
                     <!-- /.item -->
                     <li class="item">
                       <div class="product-img">
-                        <img src="{{ asset("/images/user2.jpg")}}" alt="User Image">
+                        <img src="{{ asset("/images/user5.jpg")}}" alt="User Image">
                       </div>
                       <div class="product-info">
                         <a href="javascript:void(0)" class="product-title">Bicycle
@@ -125,13 +132,20 @@
                         </a>
                         <span class="product-description">
                               26" Mongoose Dolomite Men's 7-speed, Navy Blue.
-                            </span>
+                        </span>
                       </div>
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-facebook-vertical" style="width: 22px;"><i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-google-vertical" style="width: 22px;"><i class="fa fa-google-plus"></i></a>
+                        <a class="btn btn-social-icon btn-instagram-vertical" style="width: 22px;"><i class="fa fa-instagram"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin-vertical" style="width: 22px;"><i class="fa fa-linkedin"></i></a>
+                        <a class="btn btn-social-icon btn-twitter-vertical" style="width: 22px;"><i class="fa fa-twitter"></i></a>
+                    </div>
                     </li>
                     <!-- /.item -->
                     <li class="item">
                       <div class="product-img">
-                        <img src="{{ asset("/images/user3.jpg")}}" alt="User Image">
+                        <img src="{{ asset("/images/user6.jpg")}}" alt="User Image">
                       </div>
                       <div class="product-info">
                         <a href="javascript:void(0)" class="product-title">Xbox One 
@@ -142,11 +156,18 @@
                               Xbox One Console Bundle with Halo Master Chief Collection.
                             </span>
                       </div>
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-facebook-vertical" style="width: 22px;"><i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-google-vertical" style="width: 22px;"><i class="fa fa-google-plus"></i></a>
+                        <a class="btn btn-social-icon btn-instagram-vertical" style="width: 22px;"><i class="fa fa-instagram"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin-vertical" style="width: 22px;"><i class="fa fa-linkedin"></i></a>
+                        <a class="btn btn-social-icon btn-twitter-vertical" style="width: 22px;"><i class="fa fa-twitter"></i></a>
+                    </div>
                     </li>
                     <!-- /.item -->
                     <li class="item">
                       <div class="product-img">
-                        <img src="{{ asset("/images/user4.jpg")}}" alt="User Image">
+                        <img src="{{ asset("/images/user7.jpg")}}" alt="User Image">
                       </div>
                       <div class="product-info">
                         <a href="javascript:void(0)" class="product-title">PlayStation 4
@@ -157,6 +178,13 @@
                               PlayStation 4 500GB Console (PS4)
                             </span>
                       </div>
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-facebook-vertical" style="width: 22px;"><i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon btn-google-vertical" style="width: 22px;"><i class="fa fa-google-plus"></i></a>
+                        <a class="btn btn-social-icon btn-instagram-vertical" style="width: 22px;"><i class="fa fa-instagram"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin-vertical" style="width: 22px;"><i class="fa fa-linkedin"></i></a>
+                        <a class="btn btn-social-icon btn-twitter-vertical" style="width: 22px;"><i class="fa fa-twitter"></i></a>
+                    </div>
                     </li>
                     <!-- /.item -->
                   </ul>

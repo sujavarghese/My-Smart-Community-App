@@ -44,6 +44,14 @@ class IdeasController extends Controller
 
         return view('ideas.home')->with('response', $response);
     }
+    public function security()
+    {
+        $response = array(
+            'sam_names' => $this->dataload_utilities->get_default_sams(),
+        );
+
+        return view('ideas.security')->with('response', $response);
+    }
 
     /**
      * Function to store uploaded boundary data

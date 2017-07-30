@@ -25,7 +25,7 @@
                     <div class="panel-heading"><h4 class="box-title">Share your ideas with us</h4>
                     </div>
                     <div class="panel-body">
-                        <div class="box box-info">
+                        <div>
                             <div class="box-header with-border">
                               <h3 class="box-title">New ideas</h3>
                             </div>
@@ -64,13 +64,7 @@
                     </div>
                 </div>            
             </div>
-        <div class="text-center">
-            <a class="btn btn-social-icon btn-facebook-vertical"><i class="fa fa-facebook"></i></a>
-            <a class="btn btn-social-icon btn-google-vertical"><i class="fa fa-google-plus"></i></a>
-            <a class="btn btn-social-icon btn-instagram-vertical"><i class="fa fa-instagram"></i></a>
-            <a class="btn btn-social-icon btn-linkedin-vertical"><i class="fa fa-linkedin"></i></a>
-            <a class="btn btn-social-icon btn-twitter-vertical"><i class="fa fa-twitter"></i></a>
-        </div>                   
+                           
         <div class="col-md-5">
             <div class="box box-primary">
                 <div class="box-header with-border">
@@ -92,6 +86,13 @@
                               Samsung 32" 1080p 60Hz LED Smart HDTV.
                             </span>
                       </div>
+                        <div class="text-center">
+                            <a class="btn btn-social-icon btn-facebook-vertical" style="width: 22px;"><i class="fa fa-facebook"></i></a>
+                            <a class="btn btn-social-icon btn-google-vertical" style="width: 22px;"><i class="fa fa-google-plus"></i></a>
+                            <a class="btn btn-social-icon btn-instagram-vertical" style="width: 22px;"><i class="fa fa-instagram"></i></a>
+                            <a class="btn btn-social-icon btn-linkedin-vertical" style="width: 22px;"><i class="fa fa-linkedin"></i></a>
+                            <a class="btn btn-social-icon btn-twitter-vertical" style="width: 22px;"><i class="fa fa-twitter"></i></a>
+                        </div>
                     </li>
                     <!-- /.item -->
                     <li class="item">
@@ -107,6 +108,13 @@
                               26" Mongoose Dolomite Men's 7-speed, Navy Blue.
                             </span>
                       </div>
+                        <div class="text-center">
+                            <a class="btn btn-social-icon btn-facebook-vertical" style="width: 22px;"><i class="fa fa-facebook"></i></a>
+                            <a class="btn btn-social-icon btn-google-vertical" style="width: 22px;"><i class="fa fa-google-plus"></i></a>
+                            <a class="btn btn-social-icon btn-instagram-vertical" style="width: 22px;"><i class="fa fa-instagram"></i></a>
+                            <a class="btn btn-social-icon btn-linkedin-vertical" style="width: 22px;"><i class="fa fa-linkedin"></i></a>
+                            <a class="btn btn-social-icon btn-twitter-vertical" style="width: 22px;"><i class="fa fa-twitter"></i></a>
+                        </div>
                     </li>
                     <!-- /.item -->
                     <li class="item">
@@ -122,6 +130,13 @@
                               Xbox One Console Bundle with Halo Master Chief Collection.
                             </span>
                       </div>
+                        <div class="text-center">
+                            <a class="btn btn-social-icon btn-facebook-vertical" style="width: 22px;"><i class="fa fa-facebook"></i></a>
+                            <a class="btn btn-social-icon btn-google-vertical" style="width: 22px;"><i class="fa fa-google-plus"></i></a>
+                            <a class="btn btn-social-icon btn-instagram-vertical" style="width: 22px;"><i class="fa fa-instagram"></i></a>
+                            <a class="btn btn-social-icon btn-linkedin-vertical" style="width: 22px;"><i class="fa fa-linkedin"></i></a>
+                            <a class="btn btn-social-icon btn-twitter-vertical" style="width: 22px;"><i class="fa fa-twitter"></i></a>
+                        </div>
                     </li>
                     <!-- /.item -->
                     <li class="item">
@@ -137,6 +152,13 @@
                               PlayStation 4 500GB Console (PS4)
                             </span>
                       </div>
+                        <div class="text-center">
+                            <a class="btn btn-social-icon btn-facebook-vertical" style="width: 22px;"><i class="fa fa-facebook"></i></a>
+                            <a class="btn btn-social-icon btn-google-vertical" style="width: 22px;"><i class="fa fa-google-plus"></i></a>
+                            <a class="btn btn-social-icon btn-instagram-vertical" style="width: 22px;"><i class="fa fa-instagram"></i></a>
+                            <a class="btn btn-social-icon btn-linkedin-vertical" style="width: 22px;"><i class="fa fa-linkedin"></i></a>
+                            <a class="btn btn-social-icon btn-twitter-vertical" style="width: 22px;"><i class="fa fa-twitter"></i></a>
+                        </div>
                     </li>
                     <!-- /.item -->
                   </ul>

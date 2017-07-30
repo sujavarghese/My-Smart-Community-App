@@ -26,6 +26,8 @@ Route::get('/ideas', 'IdeasController@index');
 
 Route::get('/volunteering-business-enablers', 'IdeasController@volunteering_business_enablers');
 
+Route::get('/security', 'IdeasController@security');
+
 Route::get('/boundaries/view_boundaries', 'BoundariesController@store');
 
 Route::post('boundaries/upload', 'BoundariesController@create');
