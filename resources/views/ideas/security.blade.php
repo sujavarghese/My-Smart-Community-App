@@ -4,7 +4,6 @@
 
 @section('content')
 <script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
-<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
 <script src="http://cdn.oesmith.co.uk/morris-0.4.1.min.js"></script>
 
 
@@ -150,7 +149,36 @@
         </div>
     </div>
 </section>
+<section class="content">
+    <div class="container">
+        <div id="map" class="map" style="height:500px;">
+</div>
+    </div></section>
+<link rel="stylesheet" href="https://openlayers.org/en/v4.1.1/css/ol.css" type="text/css">
+<!-- The line below is only needed for old environments like Internet Explorer and Android 4.x -->
+<script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
+<script src="https://openlayers.org/en/v4.1.1/build/ol.js"></script>
 <script type="text/javascript">
+    var map = new ol.Map({
+        layers: [
+              new ol.layer.Tile({
+                source: new ol.source.OSM()
+              })
+            ],
+    //    layers: [],
+        target: 'map',
+        controls: ol.control.defaults({
+            attributionOptions: /** @type {olx.control.AttributionOptions} */ ({
+                collapsible: false
+            })
+        }),
+        view: new ol.View({
+            center: ol.proj.transform([144.692311, -37.866540], 'EPSG:4326', 'EPSG:3857'),
+            zoom: 13
+        })
+
+
+    });
     Morris.Area({
       element: 'area-example',
       data: [

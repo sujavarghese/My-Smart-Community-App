@@ -78,12 +78,12 @@
                         <img src="{{ asset("/images/user1.jpg")}}" alt="User Image">
                       </div>
                       <div class="product-info">
-                        <a href="javascript:void(0)" class="product-title">Samsung TV
+                        <a href="javascript:void(0)" class="product-title">Two lane road on Dunnings Road connecting the Point cook road
                           <span class="fa fa-thumbs-up label label-info pull-right">961</span>
                           <span class="fa fa-thumbs-down label label-info pull-right">190</span>
                         </a>
                         <span class="product-description">
-                              Samsung 32" 1080p 60Hz LED Smart HDTV.
+                              
                             </span>
                       </div>
                         <div class="text-center">
@@ -100,12 +100,12 @@
                         <img src="{{ asset("/images/user2.jpg")}}" alt="User Image">
                       </div>
                       <div class="product-info">
-                        <a href="javascript:void(0)" class="product-title">Bicycle
+                        <a href="javascript:void(0)" class="product-title">Community Bus for public commute.
                           <span class="fa fa-thumbs-up label label-info pull-right">754</span>
                           <span class="fa fa-thumbs-down label label-info pull-right">70</span>
                         </a>
                         <span class="product-description">
-                              26" Mongoose Dolomite Men's 7-speed, Navy Blue.
+                              
                             </span>
                       </div>
                         <div class="text-center">
@@ -122,12 +122,12 @@
                         <img src="{{ asset("/images/user3.jpg")}}" alt="User Image">
                       </div>
                       <div class="product-info">
-                        <a href="javascript:void(0)" class="product-title">Xbox One 
+                        <a href="javascript:void(0)" class="product-title">Social initiative to create runners for active well-being
                             <span class="fa fa-thumbs-up label label-info pull-right">359</span>
                             <span class="fa fa-thumbs-down label label-info pull-right">116</span>
                         </a>
                         <span class="product-description">
-                              Xbox One Console Bundle with Halo Master Chief Collection.
+                              
                             </span>
                       </div>
                         <div class="text-center">
@@ -144,12 +144,12 @@
                         <img src="{{ asset("/images/user4.jpg")}}" alt="User Image">
                       </div>
                       <div class="product-info">
-                        <a href="javascript:void(0)" class="product-title">PlayStation 4
+                        <a href="javascript:void(0)" class="product-title">School bus to reduce congestion around schools.
                           <span class="fa fa-thumbs-up label label-info pull-right">320</span>
                           <span class="fa fa-thumbs-down label label-info pull-right">17</span>
                         </a>
                         <span class="product-description">
-                              PlayStation 4 500GB Console (PS4)
+                              
                             </span>
                       </div>
                         <div class="text-center">

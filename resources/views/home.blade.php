@@ -1,7 +1,9 @@
 @extends('_template')
 
 @section('content')
-<!--Slider -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="http://cdn.oesmith.co.uk/morris-0.4.1.min.js"></script>
 @include('_slider')
 
 <section class="content-header">
@@ -74,7 +76,7 @@
                 <div class="row">
 
                     <div class="col-md-6">
-                        <div class="box box-info">
+                        <div class="box box-warning" style="height: 532px;">
                             <div class="box-header with-border">
                                 <h3 class="box-title">Trending Ideas</h3>
 
@@ -98,66 +100,66 @@
                                         </thead>
                                         <tbody>
                                             <tr role="row" class="even">
-                                                <td class="">ABC</td>
-                                                <td class="">Awesome Idea</td>
-                                                <td class="">Inftasructure</td>
-                                                <td><span class="pull-right badge bg-blue">31</span>
+                                                <td class="">Sarah</td>
+                                                <td class="">Two lane road on Dunnings Road connecting the Point cook road.</td>
+                                                <td class="">Infrastructure</td>
+                                                <td><span class="pull-right badge bg-blue">428</span>
                                                 </td>
                                             </tr>
                                             <tr role="row" class="even">
-                                                <td class="">ABC</td>
-                                                <td class="">Awesome Idea</td>
-                                                <td class="">Inftasructure</td>
-                                                <td><span class="pull-right badge bg-blue">31</span>
+                                                <td class="">Alexader</td>
+                                                <td class="">Community Bus for public commute.</td>
+                                                <td class="">Transportation</td>
+                                                <td><span class="pull-right badge bg-blue">370</span>
                                                 </td>
                                             </tr>
                                             <tr role="row" class="even">
-                                                <td class="">ABC</td>
-                                                <td class="">Awesome Idea</td>
-                                                <td class="">Inftasructure</td>
-                                                <td><span class="pull-right badge bg-blue">31</span>
+                                                <td class="">Karthick</td>
+                                                <td class="">Social initiative to create runners for active well-being.</td>
+                                                <td class="">Well Being</td>
+                                                <td><span class="pull-right badge bg-blue">315</span>
                                                 </td>
                                             </tr>
                                             <tr role="row" class="even">
-                                                <td class="">ABC</td>
-                                                <td class="">Awesome Idea</td>
-                                                <td class="">Inftasructure</td>
-                                                <td><span class="pull-right badge bg-blue">31</span>
+                                                <td class="">Cibin</td>
+                                                <td class="">School bus to reduce congestion around schools.</td>
+                                                <td class="">Traffic</td>
+                                                <td><span class="pull-right badge bg-blue">249</span>
                                                 </td>
                                             </tr>
                                             <tr role="row" class="even">
-                                                <td class="">ABC</td>
-                                                <td class="">Awesome Idea</td>
-                                                <td class="">Inftasructure</td>
-                                                <td><span class="pull-right badge bg-blue">31</span>
+                                                <td class="">Suja</td>
+                                                <td class="">CCTV cameras in public playgrounds and Shopping centers.</td>
+                                                <td class="">Safety & Security</td>
+                                                <td><span class="pull-right badge bg-blue">201</span>
                                                 </td>
                                             </tr>
                                             <tr role="row" class="even">
-                                                <td class="">ABC</td>
-                                                <td class="">Awesome Idea</td>
+                                                <td class="">Senthil</td>
+                                                <td class="">Multi level Car park in Williams Landing station.</td>
                                                 <td class="">Inftasructure</td>
-                                                <td><span class="pull-right badge bg-blue">31</span>
+                                                <td><span class="pull-right badge bg-blue">191</span>
                                                 </td>
                                             </tr>
                                             <tr role="row" class="even">
-                                                <td class="">ABC</td>
-                                                <td class="">Awesome Idea</td>
-                                                <td class="">Inftasructure</td>
-                                                <td><span class="pull-right badge bg-blue">31</span>
+                                                <td class="">David</td>
+                                                <td class="">Remote car park with park and ride option.</td>
+                                                <td class="">Technology</td>
+                                                <td><span class="pull-right badge bg-blue">189</span>
                                                 </td>
                                             </tr>
                                             <tr role="row" class="even">
-                                                <td class="">ABC</td>
-                                                <td class="">Awesome Idea</td>
-                                                <td class="">Inftasructure</td>
-                                                <td><span class="pull-right badge bg-blue">31</span>
+                                                <td class="">Hayden</td>
+                                                <td class="">Plant more trees in remote areas.</td>
+                                                <td class="">Sustainability</td>
+                                                <td><span class="pull-right badge bg-blue">163</span>
                                                 </td>
                                             </tr>
                                             <tr role="row" class="even">
-                                                <td class="">ABC</td>
-                                                <td class="">Awesome Idea</td>
-                                                <td class="">Inftasructure</td>
-                                                <td><span class="pull-right badge bg-blue">31</span>
+                                                <td class="">Michael</td>
+                                                <td class="">God's eye</td>
+                                                <td class="">Safety & Security</td>
+                                                <td><span class="pull-right badge bg-blue">157</span>
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -174,7 +176,7 @@
                     </div>
 
                     <div class="col-md-6">
-                        <div class="box box-danger">
+                        <div class="box box-danger" style="height: 532px;">
                             <div class="box-header with-border">
                                 <h3 class="box-title">Latest Members</h3>
 
@@ -242,7 +244,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="box box-default">
+                        <div class="box box-success" style="height: 532px;">
                             <div class="box-header with-border">
                                 <h3 class="box-title">Government Bridge</h3>
 
@@ -279,9 +281,47 @@
                             <!-- /.footer -->
                         </div>
                     </div>
+                         <div class="col-md-6">
+                        <div class="box box-default" style="height: 532px;">
+                            <div class="box-header with-border">
+                                <h3 class="box-title">Security</h3>
+
+                                <div class="box-tools pull-right">
+                                    <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                                </div>
+                            </div>
+                            <!-- /.box-header -->
+                            <div class="box-body">
+                                <div class="chart">
+                                  <div id="area-example"></div>
+                                </div>
+                            </div>
+                            <!-- /.box-body -->
+                            <!-- /.footer -->
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+<script type="text/javascript">
+    Morris.Area({
+      element: 'area-example',
+      data: [
+        { y: '2006', a: 0, b: 0 },
+        { y: '2007', a: 6,  b: 16 },
+        { y: '2008', a: 15,  b: 40 },
+        { y: '2009', a: 25,  b: 45 },
+        { y: '2010', a: 30,  b: 40 },
+        { y: '2011', a: 55,  b: 65 },
+        { y: '2012', a: 80, b: 90 }
+      ],
+      xkey: 'y',
+      ykeys: ['a', 'b'],
+      labels: ['Resolved issues', 'Reported issues']
+    });
+</script>
 @endsection
