@@ -2,7 +2,6 @@
 
 @section('content')
 <script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
-<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
 <script src="http://cdn.oesmith.co.uk/morris-0.4.1.min.js"></script>
 @include('_slider')
 
@@ -76,7 +75,7 @@
                 <div class="row">
 
                     <div class="col-md-6">
-                        <div class="box box-warning" style="height: 532px;">
+                        <div class="box box-warning" style="height: 485px;">
                             <div class="box-header with-border">
                                 <h3 class="box-title">Trending Ideas</h3>
 
@@ -155,13 +154,6 @@
                                                 <td><span class="pull-right badge bg-blue">163</span>
                                                 </td>
                                             </tr>
-                                            <tr role="row" class="even">
-                                                <td class="">Michael</td>
-                                                <td class="">God's eye</td>
-                                                <td class="">Safety & Security</td>
-                                                <td><span class="pull-right badge bg-blue">157</span>
-                                                </td>
-                                            </tr>
                                         </tbody>
                                     </table>
                                 </div>
@@ -176,7 +168,7 @@
                     </div>
 
                     <div class="col-md-6">
-                        <div class="box box-danger" style="height: 532px;">
+                        <div class="box box-danger" style="height: 485px;">
                             <div class="box-header with-border">
                                 <h3 class="box-title">Latest Members</h3>
 
@@ -244,7 +236,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="box box-success" style="height: 532px;">
+                        <div class="box box-success" style="height: 485px;">
                             <div class="box-header with-border">
                                 <h3 class="box-title">Government Bridge</h3>
 
@@ -282,7 +274,7 @@
                         </div>
                     </div>
                          <div class="col-md-6">
-                        <div class="box box-default" style="height: 532px;">
+                        <div class="box box-default" style="height: 485px;">
                             <div class="box-header with-border">
                                 <h3 class="box-title">Security</h3>
 
