@@ -161,7 +161,7 @@
                             </div>
                             <!-- /.box-body -->
                             <div class="box-footer text-center">
-                                <a href="javascript:void(0)" class="uppercase">View All Ideas</a>
+                                <a href="/ideas/create" class="uppercase">View All Ideas</a>
                             </div>
                             <!-- /.box-footer -->
                         </div>

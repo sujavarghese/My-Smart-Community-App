@@ -20,7 +20,7 @@
 </section>
 <section class="content">
     <div class="container">
-        <div class="col-md-7">
+        <div class="col-md-6">
                 <div class="panel panel-default">
                     <div class="panel-heading"><h4 class="box-title">Select your stream</h4>
                     </div>
@@ -91,7 +91,7 @@
                     </div>
                 </div>
             </div>
-        <div class="col-md-5">
+        <div class="col-md-6">
             <div class="box box-primary">
                 <div class="box-header with-border">
                   <h3 class="box-title">Recently Delivered Projects</h3>
@@ -104,13 +104,9 @@
                         <img src="{{ asset("/images/user4.jpg")}}" alt="User Image">
                       </div>
                       <div class="product-info">
-                        <a href="javascript:void(0)" class="product-title">Samsung TV
+                        <a href="javascript:void(0)" class="product-title">Multi level Car park in Williams Landing station</a>
                           <span class="fa fa-thumbs-up label label-info pull-right">961</span>
                           <span class="fa fa-thumbs-down label label-info pull-right">190</span>
-                        </a>
-                        <span class="product-description">
-                              Samsung 32" 1080p 60Hz LED Smart HDTV.
-                            </span>
                       </div>
                     <div class="text-center">
                         <a class="btn btn-social-icon btn-facebook-vertical" style="width: 22px;"><i class="fa fa-facebook"></i></a>
@@ -126,13 +122,9 @@
                         <img src="{{ asset("/images/user5.jpg")}}" alt="User Image">
                       </div>
                       <div class="product-info">
-                        <a href="javascript:void(0)" class="product-title">Bicycle
-                          <span class="fa fa-thumbs-up label label-info pull-right">754</span>
-                          <span class="fa fa-thumbs-down label label-info pull-right">70</span>
-                        </a>
-                        <span class="product-description">
-                              26" Mongoose Dolomite Men's 7-speed, Navy Blue.
-                        </span>
+                        <a href="javascript:void(0)" class="product-title">Community Bus for public commute</a>
+                        <span class="fa fa-thumbs-up label label-info pull-right">961</span>
+                        <span class="fa fa-thumbs-down label label-info pull-right">190</span>
                       </div>
                     <div class="text-center">
                         <a class="btn btn-social-icon btn-facebook-vertical" style="width: 22px;"><i class="fa fa-facebook"></i></a>
@@ -148,14 +140,10 @@
                         <img src="{{ asset("/images/user6.jpg")}}" alt="User Image">
                       </div>
                       <div class="product-info">
-                        <a href="javascript:void(0)" class="product-title">Xbox One 
-                            <span class="fa fa-thumbs-up label label-info pull-right">359</span>
-                            <span class="fa fa-thumbs-down label label-info pull-right">116</span>
-                        </a>
-                        <span class="product-description">
-                              Xbox One Console Bundle with Halo Master Chief Collection.
-                            </span>
-                      </div>
+                        <a href="javascript:void(0)" class="product-title">Remote car park with park and ride option</a>
+                          <span class="fa fa-thumbs-up label label-info pull-right">961</span>
+                          <span class="fa fa-thumbs-down label label-info pull-right">190</span>
+                      </div>School bus to reduce congestion around schools
                     <div class="text-center">
                         <a class="btn btn-social-icon btn-facebook-vertical" style="width: 22px;"><i class="fa fa-facebook"></i></a>
                         <a class="btn btn-social-icon btn-google-vertical" style="width: 22px;"><i class="fa fa-google-plus"></i></a>
@@ -170,13 +158,9 @@
                         <img src="{{ asset("/images/user7.jpg")}}" alt="User Image">
                       </div>
                       <div class="product-info">
-                        <a href="javascript:void(0)" class="product-title">PlayStation 4
-                          <span class="fa fa-thumbs-up label label-info pull-right">320</span>
-                          <span class="fa fa-thumbs-down label label-info pull-right">17</span>
-                        </a>
-                        <span class="product-description">
-                              PlayStation 4 500GB Console (PS4)
-                            </span>
+                        <a href="javascript:void(0)" class="product-title">School bus to reduce congestion around schools</a>
+                          <span class="fa fa-thumbs-up label label-info pull-right">961</span>
+                          <span class="fa fa-thumbs-down label label-info pull-right">190</span>
                       </div>
                     <div class="text-center">
                         <a class="btn btn-social-icon btn-facebook-vertical" style="width: 22px;"><i class="fa fa-facebook"></i></a>
@@ -191,7 +175,7 @@
                 </div>
             <!-- /.box-body -->
             <div class="box-footer text-center">
-              <a href="/ideas" class="uppercase">View All Projects</a>
+              <a href="/volunteering-business-enablers" class="uppercase">View All Projects</a>
             </div>
             <!-- /.box-footer -->
           </div>
