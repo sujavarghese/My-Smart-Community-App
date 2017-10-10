@@ -10,9 +10,9 @@ This is an application for My Smart Community App built on Laravel PHP, MySQL an
 
 1.Open cmd prompt and move to your destination folder
 
-    run git clone https://github.com/sujavarghese/LaravelProjectDemo.git
+    run git clone https://github.com/sujavarghese/My-Smart-Community-App.git
 
-2. Go to <destination folder>/LaravelProjectDemo
+2. Go to <destination folder>/My-Smart-Community-App
 
     2.1 `composer install`
 
